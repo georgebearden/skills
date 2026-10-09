@@ -1,7 +1,5 @@
 # Tautological test patterns
 
-Source: the "Unit Tests: No Tautologies" rule in `~/no-tautological-tests.md`. Keep the two in sync.
-
 ## The question
 A test must be able to fail if the behavior it covers is broken. For each suspect ask: **"If I deleted or broke the implementation, would this test fail?"** If not, it is tautological.
 
